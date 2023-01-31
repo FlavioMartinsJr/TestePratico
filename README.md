@@ -1,6 +1,6 @@
 <h1 align="Center">
   :computer: Teste Pratico
-  <p>Controle de Usuarios</p>
+
 </h1><br>
 
 ## :bell: Informações:
