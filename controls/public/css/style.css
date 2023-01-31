@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+}
+.headerPrincipal{
+    padding: 10px 0px;
+    background-color: #F8F8F8;
+}
+.header{
+    background-color: #444;
+}
+#textoNavbar {
+    justify-content: flex-end;
+}
+#textoNavbar li{
+    font-size: 17px;
+    margin-right: 20px;
+}
+.sectionServices{
+    margin-top: 0px;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sectionServices h5{
+    padding: 10px 10px;
+}
+.blocos{
+    position: absolute;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    text-align: center;
+    height: 60%;
+    gap: 20px;
+}
+@media screen and (max-width: 768px) {
+    .sectionServices{
+        height: 280px;
+    }
+    .nav-tabela{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-tabela div{
+        margin-top: 20px; 
+    }
+    .nav-tabela h4{
+        margin-bottom: 0px; 
+    }
+    .nav-tabela-filtro label{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sectionServices{
+        height: 280px;
+    }
+    .blocos{
+        gap: 15px;
+    }
+    .nav-tabela-btnCadastrar{
+        margin-left: 20px;
+    }
+    .nav-tabela div{
+        margin-top: 20px; 
+    }
+}
+@media screen and (min-width: 1000px) {
+    .sectionServices{
+        height: 190px;
+    }
+    .blocos{
+        gap: 10px;
+    }
+}
+
+.blocos-estrutura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.azul{
+    box-shadow: -6px 0px 0px #1000f6,-2px 3px 6px  rgb(153, 153, 153);
+}
+.laranja{
+    box-shadow: -6px 0px 0px #f63100,-2px 3px 6px  rgb(153, 153, 153);
+}
+.verde{
+    box-shadow: -6px 0px 0px #03a51e,-2px 3px 6px  rgb(153, 153, 153);
+}
+.vermelho{
+    box-shadow: -6px 0px 0px #d10c0c,-2px 3px 6px  rgb(153, 153, 153);
+}
+.blocos-incones{
+    font-size: 2rem;
+    padding: 10px;
+}
+.blocos-estrutura p{
+   font-size: 12px;
+   margin: 0px;
+   padding: 0px;
+}
+.blocos-estrutura:hover{
+    color: white;
+    cursor: pointer;
+}
+.azul:hover{
+    background-color: #1000f6; 
+}
+.laranja:hover{
+    background-color: #f63100;
+}
+.verde:hover{
+    background-color: #03a51e;
+}
+.vermelho:hover{
+    background-color: #d10c0c;
+}
+.main-tabela{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-tabela{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.nav-tabela ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-tabela-filtro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tabela-filtro label{
+    margin-right: 5px;
+}
+.nav-tabela-pesquisa input{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px 30px;
+    border: none;
+    font-size: 14px;
+}
+.nav-tabela-pesquisa button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-tabela-btnCadastrar{
+    text-decoration: solid;
+    color: white;
+    border: none;
+    background-color: #108CFF;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.nav-tabela-btnCadastrar:hover{
+    cursor: pointer;
+    background-color: #086fcf;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+   text-align: center;
+   padding: 15px;
+   color: #444;
+   
+}
+td {
+    text-align: center;
+    padding: 10px;
+    color: rgb(119, 119, 119);
+}
+td button{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+td button:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #bcdfff;
+}
+tfoot tr td a{ 
+    color:#444;
+    font-size: 16px;
+}
+tfoot tr td a:hover{
+    text-decoration: none;
+    color:rgb(150, 150, 150)
+}
+
+
+
+
