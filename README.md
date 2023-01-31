@@ -7,17 +7,17 @@
 
 Projeto elaborado para controlar cadastro de usuários.
 
-Funções Disponiveis;
-•	Permitir cadastrar novos usuários;
-•	Permitir alterar usuários cadastrados;
-•	Permitir excluir usuário cadastrados;
-•	Listar usuários já cadastrados;
-•	Pesquisar por usuários cadastrados
+Funções Disponiveis;<br>
+•	Permitir cadastrar novos usuários;<br>
+•	Permitir alterar usuários cadastrados;<br>
+•	Permitir excluir usuário cadastrados;<br>
+•	Listar usuários já cadastrados;<br>
+•	Pesquisar por usuários cadastrados.<br>
 
-Linguagem utilizadas;
-1.	Front-End – HTML, CSS, BOOTSTRAP e JAVASCRIPT;
-2.	Back-End – PHP e MySQL;
-3.	(UX/UI) – Figma.
+Linguagem utilizadas;<br>
+1.	Front-End – HTML, CSS, BOOTSTRAP e JAVASCRIPT;<br>
+2.	Back-End – PHP e MySQL;<br>
+3.	(UX/UI) – Figma.<br>
 
 ## :open_file_folder: Download:
 
@@ -32,9 +32,9 @@ Para usar o sistema, basta apenas baixar o Xampp ou Wamp as versões recentes, s
 
 <li>Preview</li><br>
 LINK site Hospedando e Execultando:
-<ol>
+<ul>
   <li>https://testepraticocontroleusuarios.000webhostapp.com/TestePratico/views/index.php</li>
-</ol>
+</ul>
 
 ##
 
